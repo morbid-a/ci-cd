@@ -20,5 +20,5 @@ Register / log in app with three containers:
     npm install
     npx playwright install chromium  # or set PW_CHANNEL=chrome / msedge to use an installed browser
     npx playwright test              # starts the stack itself if it is not running
-    
-CI/CD deployment demonstration.
+
+CI/CD deployment demonstration. 
