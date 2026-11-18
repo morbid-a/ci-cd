@@ -34,3 +34,8 @@ test("login with invalid credentials shows an error", async ({ page }) => {
   await expect(page).toHaveURL(/#\/login$/);
   await expect(page.getByRole("heading", { name: "Welcome" })).toBeHidden();
 });
+
+// TEMPORARY: intentional failure to test CI/CD failure handling
+test("intentional failure test", async () => {
+  expect(1).toBe(2);
+});
