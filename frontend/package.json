@@ -1,0 +1,13 @@
+{
+  "name": "auth-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5173 --strictPort",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  }
+}
